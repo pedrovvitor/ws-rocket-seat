@@ -24,6 +24,7 @@ body #container > #container
 body {
     background: #e5e5e5;
     color: #25282b;
+    height: 100%;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -152,12 +153,12 @@ footer a {
     position: absolute;
     top: 0;
     width: 100vw;
-    height: max-content;
+    height: 130vh;
     display: flex;
     /*align-items: center;  alinha o eixo Y */
     justify-content: center;
     /*alinha o eixo X*/
-
+    max-height: max-content;
     transition: 400ms;
 }
 
